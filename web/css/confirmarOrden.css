@@ -1,0 +1,85 @@
+/* 
+confirmarOrden.css
+
+EIF209 - Programación 4 - Proyecto #2
+Junio 2020
+
+Autores:
+    - 207950788     Sara Moraga Alfara
+    - 116980485     Scarleth Villarreal Jímenez
+   - 117250099     Josué Víquez Campos
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+body{ 
+    background-image: url(imagenes/ingredientes.jpg);
+    font-family: "Roboto";
+    background-size: cover;
+}
+
+.wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30%;
+    height: 450px;
+    padding: 30px 10px 30px 10px;
+    box-sizing: border-box;
+    background: rgba(0,0,0,.5);  
+    border-radius: 6px;
+}
+
+h1{
+    margin-left: 2%;
+    margin: 0;
+    padding: 0;
+    width: 350px;
+    color: #eb4d56;
+    height: 23px;
+    text-align: center;
+}
+
+h2{
+    position: fixed;
+    top: 70%;
+    left: 28%;
+    width:190px;
+    color: #ff6666;
+    height: 25px;
+    text-align: center;
+}
+
+.wrapper .aceptar{
+    position: absolute;
+    top: 90%;
+    left: 30%;
+}
+.wrapper .cancel{
+    position: absolute;
+    top: 90%;
+    left: 52%;
+}
+ 
+.tablaOrden {
+    position: absolute;
+    color: white;
+    top: 18%;
+    padding: 0px 0px;
+}
+
+.tablaOrden .etiqueta {
+    text-align: right;
+    padding-top: 10px;
+    padding-right: 20px;
+}
+
+.tablaOrden .campo {
+    width: 100%;
+    font-size: 1.3em;
+}
+
+.wrapper input{
+    width: 97%;
+}

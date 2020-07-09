@@ -1,0 +1,69 @@
+/* 
+registro.css
+
+EIF209 - Programación 4 - Proyecto #2
+Junio 2020
+
+Autores:
+    - 207950788     Sara Moraga Alfara
+    - 116980485     Scarleth Villarreal Jímenez
+   - 117250099     Josué Víquez Campos
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+body{ 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url(imagenes/pizzaRegistro.jpg);
+    font-family: "Roboto";
+    background-size: cover;
+}
+.wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 320px;
+    height: 375px;
+    padding: 30px 10px 30px 10px;
+    box-sizing: border-box;
+    background: rgba(0,0,0,.6);  
+    border-radius: 6px;
+}
+h4{
+    margin: 0;
+    padding: 0;
+    color: white;
+    height: 25px;
+    text-align: center;
+}
+.tablaFormulario {
+    color: white;
+    padding: 0px 0px;
+}
+.tablaFormulario .etiqueta {
+    text-align: right;
+    padding-top: 10px;
+    padding-right: 20px;
+}
+.enviarInfo{
+    border: none;
+    outline: none;
+    width: 100px;
+    height: 30px;
+    background-color: lightgoldenrodyellow;
+    text-align: center;
+    font-size: 12px;
+    cursor: pointer;
+    margin: 10px;
+    transform: translate(90%, 0%);
+    border-radius: 10px;
+}
+.tablaFormulario .campo {
+    width: 100%;
+    font-size: 1.3em;
+}
+

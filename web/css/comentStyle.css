@@ -1,0 +1,75 @@
+/* 
+comentStyle.css
+
+EIF209 - Programación 4 - Proyecto #2
+Junio 2020
+
+Autores:
+    - 207950788     Sara Moraga Alfara
+    - 116980485     Scarleth Villarreal Jímenez
+   - 117250099     Josué Víquez Campos
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+body{ 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url(imagenes/pedido.jpg);
+    font-family: "Roboto";
+    background-repeat: no-repeat;
+}
+.wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 320px;
+    height: 365px;
+    padding: 30px 10px 30px 10px;
+    box-sizing: border-box;
+    background: rgba(0,0,0,.6);  
+    border-radius: 6px;
+}
+/*Comentarios*/
+.tablaComentario {
+    color: white;
+    padding: 0px 0px;
+}
+h1{
+    color: white;
+    text-align: center;
+    background-color: rgba(0, 0, 255,.2);
+}
+.tablaComentario .etiqueta {
+    text-align: right;
+    padding-top: 10px;
+    padding-right: 60px;
+     font-size: 20px;
+}
+.comentario{
+    left: 1000px;
+    font-family: arial, verdana, ms sans serif;
+
+}
+h3{
+    color: whitesmoke;
+    text-align: center;
+    background-color: rgba(0, 0, 255,.2); 
+}
+.enviarComen{
+    border: none;
+    outline: none;
+    width: 100px;
+    height: 30px;
+    background-color: lightgoldenrodyellow;
+    text-align: center;
+    font-size: 12px;
+    cursor: pointer;
+    margin: 10px;
+    transform: translate(90%, 0%);
+    border-radius: 10px;
+}
+

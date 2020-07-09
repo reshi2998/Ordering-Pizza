@@ -1,0 +1,115 @@
+/*
+ReportesStyle.css
+
+EIF209 - Programación 4 - Proyecto #2
+Junio 2020
+
+Autores:
+    - 207950788     Sara Moraga Alfaro
+    - 116980485     Scarleth Villarreal Jímenez
+    - 117250099     Josué Víquez Campos
+*/
+body{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Latin Modern Roman 10";
+    font-style: oblique;
+    background-image: url(imagenes/reporte.jpg);
+    background-size: cover;
+}
+header{
+    width: 100%;
+    height: 50px;
+    background: #fc4a1a; 
+    background: -webkit-linear-gradient(to right, #fc4a1a, #f7b733);
+    background: linear-gradient(to right, #fc4a1a, #f7b733);
+    border-bottom: 2px solid black;
+    text-align: center;
+}
+.fechas{
+    padding-top: 18px;
+}
+.titulo{
+    text-align: center;
+    font-family: "Latin Modern Roman 10";
+    font-style: oblique;
+    background: #fc4a1a; 
+    background: -webkit-linear-gradient(to right, #fc4a1a, #f7b733);
+    background: linear-gradient(to right, #fc4a1a, #f7b733);
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+/* Estilo de la tabla */
+#contents{
+    margin: auto;
+}
+section {
+    border-bottom: 1px dotted gray;
+    margin: auto;
+    padding: 8px;
+}
+.tablaPizzas {
+    margin-left: 20%;
+    border: 2px solid black;
+    border-top-width: 1px;
+    border-collapse: collapse;
+    margin: 8px 8px 8px 64px;
+    font-size: 10pt;
+}
+.tablaPizzas caption {
+    height: 40px;
+    background-color: #eb4d56;
+    border: 2px solid black;
+    border-bottom-width: 1px;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 4px 24px 4px 24px;
+}
+.tablaPizzas thead {
+    background-color: #ff9999;
+}
+/*.tablaPizzas tbody tr {
+    background-color: #e5eaff;
+}*/
+.tablaPizzas tbody tr:nth-child(even) td{
+    background-color: #ff9933;
+}
+.tablaPizzas tbody tr:nth-child(odd) td{
+    background-color: #ffcc66;
+}
+.tablaPizzas th,
+.tablaPizzas td {
+    border: 1px solid black;
+    padding: 8px 16px 8px 16px;
+    height: 25px;
+}
+.tablaPizzas .d1 { 
+    text-align: center; 
+    font-weight: bold;
+}
+.tablaPizzas .d2 {
+    text-align: center;
+    font-weight: bold;
+}
+.tablaPizzas .d3 {
+    text-align: center;
+    font-weight: bold;
+}
+.tablaPizzas  .d4 {
+    text-align: center; 
+    font-weight: bold;
+}
+.tablaPizzas  .d5 {
+    text-align: center; 
+    font-weight: bold;
+}
+.tablaPizzas  .d6 {
+    text-align: center;
+    font-weight: bold;
+}
+.tablaPizzas  .d7 {
+    text-align: center; 
+}
+
